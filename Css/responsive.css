@@ -1,0 +1,35 @@
+@media (min-width: 320px) and (max-width: 767px){
+
+    #banner .slides {
+        height: 300px;
+    }
+    #banner .slides .banner_cnt h1 {
+        font-size: 30px;
+        margin: -20px 0 -120px 0;
+    }
+    #banner .bannerDots {
+        visibility: hidden;
+    }
+    #banner .slides .banner_cnt a {
+        color: #FFF;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 30px;
+        background-color: var(--PrimaryColor);
+        padding: 2px 10px;
+        display: inline-block;
+        border-radius: 8px;
+    }
+    #banner .slides .banner_cnt p {
+        visibility: hidden;
+    }
+    #new_product h1{
+    font-size: 26px;
+    }
+}
+@media (min-width: 437px) and (max-width: 767px){
+    #banner .slides .banner_cnt a {
+        margin-top: 60px;
+    }
+}
